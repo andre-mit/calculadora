@@ -1,0 +1,103 @@
+.calculo{
+    grid-area: calculo;
+	background-color: var(--display-background);
+	color: var(--text-color);
+	margin: 5px;
+	font-size: 2em;
+	border-radius: 8px;
+	border: 0;
+	outline: none;
+	padding-left: 1rem;
+}
+
+.b7{
+	grid-area: b7;
+	background-color: var(--button-background);
+}
+
+.b8{
+	grid-area: b8;
+	background-color: var(--button-background);
+}
+
+.b9{
+	grid-area: b9;
+	background-color: var(--button-background);
+}
+
+.bDivide{
+	grid-area: bDivide;
+	background-color: var(--button-background);
+}
+
+.bClear{
+	grid-area: bClear;
+	background-color: var(--clear-background); 
+	color: var(--text-color);
+}
+
+.b4{
+	grid-area: b4;
+	background-color: var(--button-background);
+}
+
+.b5{
+	grid-area: b5;
+	background-color: var(--button-background);
+}
+
+.b6{
+	grid-area: b6;
+	background-color: var(--button-background);
+}
+
+.bMultiply{
+	grid-area: bMultiply;
+	background-color: var(--button-background);
+}
+
+.bInvert{
+	grid-area: bInvert;
+	background-color: var(--button-background);
+}
+
+.b1{
+	grid-area: b1;
+	background-color: var(--button-background);
+}
+
+.b2{
+	grid-area: b2;
+	background-color: var(--button-background);
+}
+
+.b3{
+	grid-area: b3;
+	background-color: var(--button-background);
+}
+
+.bLess{
+	grid-area: bLess;
+	background-color: var(--button-background);
+}
+
+.bEqual{
+	grid-area: bEqual;
+	background-color: var(--equal-background); 
+	color: var(--text-color);
+}
+
+.b0{
+	grid-area: b0;
+	background-color: var(--button-background);
+}
+
+.bDot{
+	grid-area: bDot;
+	background-color: var(--button-background);
+}
+
+.bPlus{
+	grid-area: bPlus;
+	background-color: var(--button-background);
+}
