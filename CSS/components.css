@@ -1,87 +1,51 @@
-.calculo{
-    grid-area: calculo;
-	background-color: var(--display-background);
-	color: var(--text-color);
-	margin: 5px;
-	font-size: 2em;
-	border-radius: 8px;
-	border: 0;
-	outline: none;
-	padding-left: 1rem;
+.calculo {
+  grid-area: calculo;
+  background-color: var(--display-background);
+  color: var(--text-color);
+  margin: 5px;
+  font-size: 2em;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  padding-left: 1rem;
 }
 
-.b7{
-	grid-area: b7;
+.bDivide {
+  grid-area: bDivide;
 }
 
-.b8{
-	grid-area: b8;
+.bClear {
+  grid-area: bClear;
+  background-color: var(--clear-background);
+  color: var(--text-color);
 }
 
-.b9{
-	grid-area: b9;
+.bMultiply {
+  grid-area: bMultiply;
 }
 
-.bDivide{
-	grid-area: bDivide;
+.bInvert {
+  grid-area: bInvert;
 }
 
-.bClear{
-	grid-area: bClear;
-	background-color: var(--clear-background); 
-	color: var(--text-color);
+.bLess {
+  grid-area: bLess;
 }
 
-.b4{
-	grid-area: b4;
+.bEqual {
+  grid-area: bEqual;
+  background-color: var(--equal-background);
+  color: var(--text-color);
 }
 
-.b5{
-	grid-area: b5;
+.b0 {
+  grid-area: b0;
 }
 
-.b6{
-	grid-area: b6;
+.bDot {
+  grid-area: bDot;
 }
 
-.bMultiply{
-	grid-area: bMultiply;
-}
-
-.bInvert{
-	grid-area: bInvert;
-}
-
-.b1{
-	grid-area: b1;
-}
-
-.b2{
-	grid-area: b2;
-}
-
-.b3{
-	grid-area: b3;
-}
-
-.bLess{
-	grid-area: bLess;
-}
-
-.bEqual{
-	grid-area: bEqual;
-	background-color: var(--equal-background); 
-	color: var(--text-color);
-}
-
-.b0{
-	grid-area: b0;
-}
-
-.bDot{
-	grid-area: bDot;
-}
-
-.bPlus{
-	grid-area: bPlus;
+.bPlus {
+  grid-area: bPlus;
 }

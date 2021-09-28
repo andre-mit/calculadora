@@ -1,42 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./CSS/styles.css">
-    <link rel="stylesheet" href="./CSS/components.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/components.css" />
     <script src="./JS/index.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="grid container">
-        <input class="calculo" id="calculo" name="calculo" disabled>
+      <input class="calculo" id="calculo" name="calculo" disabled />
 
-        <input type="button" class="item b7" value="7" id="btnValue" onclick="fillInput(7)">
-        <input type="button" class="item b8" value="8" id="btnValue" onclick="fillInput(8)">
-        <input type="button" class="item b9" value="9" id="btnValue" onclick="fillInput(9)">
-        <input type="button" class="item bDivide" value="/" id="btnValue" onclick="chooseOperator('/')">
-        <input type="button" class="item bClear" value="C" id="btnClear" onclick="clearInput()">
+      <input
+        type="button"
+        class="item"
+        value="7"
+        id="btnValue"
+        onclick="fillInput(7)"
+      />
+      <input
+        type="button"
+        class="item"
+        value="8"
+        id="btnValue"
+        onclick="fillInput(8)"
+      />
+      <input
+        type="button"
+        class="item"
+        value="9"
+        id="btnValue"
+        onclick="fillInput(9)"
+      />
+      <input
+        type="button"
+        class="item bDivide"
+        value="/"
+        id="btnValue"
+        onclick="chooseOperator('/')"
+      />
+      <input
+        type="button"
+        class="item bClear"
+        value="C"
+        id="btnClear"
+        onclick="clearInput()"
+      />
 
-        <input type="button" class="item b4" value="4" id="btnValue" onclick="fillInput(4)">
-        <input type="button" class="item b5" value="5" id="btnValue" onclick="fillInput(5)">
-        <input type="button" class="item b6" value="6" id="btnValue" onclick="fillInput(6)">
-        <input type="button" class="item bMultiply" value="*" id="btnValue" onclick="chooseOperator('*')">
-        <input type="button" class="item bInvert" value="+/-" id="btnValue" onclick="invertOperator()">
+      <input
+        type="button"
+        class="item"
+        value="4"
+        id="btnValue"
+        onclick="fillInput(4)"
+      />
+      <input
+        type="button"
+        class="item"
+        value="5"
+        id="btnValue"
+        onclick="fillInput(5)"
+      />
+      <input
+        type="button"
+        class="item"
+        value="6"
+        id="btnValue"
+        onclick="fillInput(6)"
+      />
+      <input
+        type="button"
+        class="item bMultiply"
+        value="*"
+        id="btnValue"
+        onclick="chooseOperator('*')"
+      />
+      <input
+        type="button"
+        class="item bInvert"
+        value="+/-"
+        id="btnValue"
+        onclick="invertOperator()"
+      />
 
-        <input type="button" class="item b1" value="1" id="btnValue" onclick="fillInput(1)">
-        <input type="button" class="item b2" value="2" id="btnValue" onclick="fillInput(2)">
-        <input type="button" class="item b3" value="3" id="btnValue" onclick="fillInput(3)">
-        <input type="button" class="item bLess" value="-" id="btnValue" onclick="chooseOperator('-')">
-        <input type="button" class="item bEqual" value="=" id="btnValue" onclick="result()">
+      <input
+        type="button"
+        class="item"
+        value="1"
+        id="btnValue"
+        onclick="fillInput(1)"
+      />
+      <input
+        type="button"
+        class="item"
+        value="2"
+        id="btnValue"
+        onclick="fillInput(2)"
+      />
+      <input
+        type="button"
+        class="item"
+        value="3"
+        id="btnValue"
+        onclick="fillInput(3)"
+      />
+      <input
+        type="button"
+        class="item bLess"
+        value="-"
+        id="btnValue"
+        onclick="chooseOperator('-')"
+      />
+      <input
+        type="button"
+        class="item bEqual"
+        value="="
+        id="btnValue"
+        onclick="result()"
+      />
 
-        <input type="button" class="item b0" value="0" id="btnValue" onclick="fillInput(0)">
-        <input type="button" class="item bDot" value="." id="btnValue" onclick="decimal()">
-        <input type="button" class="item bPlus" value="+" id="btnValue" onclick="chooseOperator('+')">
+      <input
+        type="button"
+        class="item b0"
+        value="0"
+        id="btnValue"
+        onclick="fillInput(0)"
+      />
+      <input
+        type="button"
+        class="item bDot"
+        value="."
+        id="btnValue"
+        onclick="decimal()"
+      />
+      <input
+        type="button"
+        class="item bPlus"
+        value="+"
+        id="btnValue"
+        onclick="chooseOperator('+')"
+      />
     </div>
-</body>
-
+  </body>
 </html>
